@@ -148,6 +148,7 @@ class Laracurl {
 		$this->ch = curl_init();
 		curl_setopt($this->ch, CURLOPT_RETURNTRANSFER, true);
 		curl_setopt($this->ch, CURLOPT_HEADER, true);
+                curl_setopt($this->ch, CURLOPT_SSL_VERIFYPEER, false);
 		curl_setopt($this->ch, CURLOPT_URL, $request->getUrl());
 
 		$options = $request->getOptions();

@@ -1,7 +1,7 @@
 Laracurl
 ========
 
-Laravel cURL Wrapper for [Andreas Lutro's](https://github.com/anlutro/php-curl) OOP cURL Class
+Laravel cURL Wrapper for [Andreas Lutro's](https://github.com/anlutro/php-curl) OOP cURL Class with SSL modifications by webkraller
 
 
 # Installation
@@ -10,7 +10,7 @@ To install the package, simply add the following to your Laravel installation's 
 ```json
 "require": {
 	"laravel/framework": "5.*",
-	"zjango/laracurl": "dev-master"  
+	"webkraller/laracurl": "dev-master"  
 },
 ```
 

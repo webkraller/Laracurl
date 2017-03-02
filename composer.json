@@ -1,6 +1,6 @@
 {
-    "name": "zjango/laracurl",
-    "description": "Laravel 5.0 Package Wrapper For Andreas Lutro's OOP cURL Class",
+    "name": "webkraller/laracurl",
+    "description": "Laravel 5.0 Package Wrapper For Andreas Lutro's OOP cURL Class with SSL by webkraller",
     "keywords": ["framework", "laravel", "curl", "Laracurl"],
     "license": "MIT",
     "authors": [
